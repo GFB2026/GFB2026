@@ -11,6 +11,7 @@ Not selling a coding agent. Operating real businesses where agents already touch
 | Peer desk | [gregfredabytes.com](https://gregfredabytes.com/) |
 | What I run | [gregfredabytes.com/running](https://gregfredabytes.com/running/) |
 | Thesis | [Agent-operated companies](https://gregfredabytes.com/essay/agent-operated-companies/) |
+| Essay #2 | [Mail is the front door](https://gregfredabytes.com/essay/mail-as-front-door/) |
 | X | [@gregfredabytes](https://x.com/gregfredabytes) |
 | Studio / lab | [gfbytes.com](https://gfbytes.com/) |
 
@@ -18,6 +19,7 @@ Same identity on every surface: operator seat, not another harness pitch.
 
 ## Public artifacts
 
+- **[operator-gates](https://github.com/GFB2026/operator-gates)** — fail-closed send/money/outreach cards for agent-operated companies (flagship)
 - **[mcp-oauth-connect](https://github.com/GFB2026/mcp-oauth-connect)** — free checker for when an MCP remote answers `curl` but dies in Claude / Cursor / Desktop / Grok Connectors
 - **[mcp-gfbytes](https://github.com/GFB2026/mcp-gfbytes)** — web UI companion (`check.gfbytes.com`)
 

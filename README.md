@@ -19,7 +19,7 @@ Same identity on every surface: operator seat, not another harness pitch.
 
 ## Public artifacts
 
-- **[operator-gates](https://github.com/GFB2026/operator-gates)** — reference stub: fail-closed send/money/outreach card shape (not a framework)
+- **[operator-gates](https://github.com/GFB2026/operator-gates)** — fail-closed GO/NO-GO cards + scar `001` (stale mirror before send); CLI `operator-gates replay 001`
 - **[mcp-oauth-connect](https://github.com/GFB2026/mcp-oauth-connect)** — free checker for when an MCP remote answers `curl` but dies in Claude / Cursor / Desktop / Grok Connectors
 - **[mcp-gfbytes](https://github.com/GFB2026/mcp-gfbytes)** — web UI companion (`check.gfbytes.com`)
 

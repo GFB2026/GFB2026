@@ -12,6 +12,7 @@ Not selling a coding agent. Operating real businesses where agents already touch
 | What I run | [gregfredabytes.com/running](https://gregfredabytes.com/running/) |
 | Thesis | [Agent-operated companies](https://gregfredabytes.com/essay/agent-operated-companies/) |
 | Essay #2 | [Mail is the front door](https://gregfredabytes.com/essay/mail-as-front-door/) |
+| Essay #3 | [Wrong host, wrong truth](https://gregfredabytes.com/essay/wrong-host-wrong-truth/) |
 | X | [@gregfredabytes](https://x.com/gregfredabytes) |
 | Studio / lab | [gfbytes.com](https://gfbytes.com/) |
 

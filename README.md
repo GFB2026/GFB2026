@@ -16,6 +16,8 @@ Named list: [gregfredabytes.com/running](https://gregfredabytes.com/running/)
 
 ## On GitHub
 
+This account is a shop window, not an archive of the companies. Three public repos, pinned. Production internals stay private — student records, mail, money, client work, live ops. Public scars and patterns live here and on [gregfredabytes.com](https://gregfredabytes.com/).
+
 - [mcp-oauth-connect](https://github.com/GFB2026/mcp-oauth-connect) — MCP remotes that pass `curl` and then die in Claude, Cursor, Desktop, or Grok Connectors. Free checker: [check.gfbytes.com](https://check.gfbytes.com/). Official Registry probe: 21/25 remotes failed connector-critical checks.
 - [mcp-gfbytes](https://github.com/GFB2026/mcp-gfbytes) — the web UI for that checker
 - [operator-gates](https://github.com/GFB2026/operator-gates) — send/money stop patterns from production, as reference code

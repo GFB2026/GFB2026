@@ -1,15 +1,16 @@
 ## A `PreToolUse` hook is not a gate
 
-Grok Build 1.0.34, default permissions, one allow rule, one hook in front of a shell command that writes a file. Four runs, 2026-09-19:
+Grok Build 1.0.34, default permissions, allow rules for the Python interpreter only, one fixture hook in front of a shell command that writes a file (the operator's own fleet hook was also in the chain and allowed each time). Five runs, 2026-09-19:
 
 | fixture | hook did | tool fired? | should have been | harness log line |
 |---|---|---|---|---|
 | deny (control) | well-formed deny, exit 2 | **blocked** | NO-GO | `gate hook blocked … NO-GO` |
 | timeout | slept 8s against a 5s limit | **FIRED** | NO-GO | `gate hook failed; ignoring (fail-open) … timed out after 5000ms` |
 | crash | raised, exit 1 | **FIRED** | NO-GO | `gate hook failed; ignoring (fail-open) … exit code 1` |
-| malformed | truncated deny JSON, exit 0 | **FIRED** | NO-GO | `hook allowed` |
+| malformed, exit 0 | truncated deny JSON, exit 0 | **FIRED** | NO-GO | `hook allowed` — documented: exit 0 allows |
+| malformed, **exit 2** | truncated deny JSON, the deny code | **FIRED** | NO-GO | `gate hook failed; ignoring (fail-open) … exit code 1` |
 
-Three of four irreversible actions ran with a gate in front of them. The malformed one wasn't even logged as a failure. Documented behaviour on both sides — xAI: *"timeouts, crashes, malformed output — is fail-open"*; Claude Code: *"don't count on a stalled hook to act as a gate."*
+Timeout and crash fail open as xAI documents — *"timeouts, crashes, malformed output — is fail-open."* The last row is the one the docs don't mention: a deny that exited 2, the documented deny code, with truncated stdout. The harness saw exit 1, had no JSON to parse, and let the tool fire. Windows, Grok Build 1.0.34; other platforms unconfirmed. (Claude Code's docs say the same about stalled hooks — *"don't count on a stalled hook to act as a gate"* — but nothing here was run against Claude Code.)
 
 So the gate can't live in the hook. It lives in the mutator, and **no card is a NO-GO**.
 

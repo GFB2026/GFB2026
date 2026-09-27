@@ -1,0 +1,20 @@
+instructions: |
+  This is the public GitHub profile repository for the GFB2026 account, not an
+  application or library. README.md is the only product content.
+
+  Preserve the concise, evidence-led first-person voice and the existing
+  distinction between public reference material and private production systems.
+  Do not invent source code, dependencies, build steps, tests, performance
+  measurements, company claims, or links.
+
+  Before editing, read the complete README.md and inspect the current diff.
+  Keep changes narrowly scoped to the requested profile content. Validate
+  Markdown structure, spelling, links touched by the change, and
+  `git diff --check`. There is no build, package installation, test suite,
+  development server, or deploy command in this repository.
+
+auto_open_in_browser: false
+
+automation:
+  auto_issue_session: false
+  remote_control: false

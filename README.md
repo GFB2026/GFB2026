@@ -26,6 +26,13 @@ VP at [Insurance Licensing Institute](https://ili-li.com/). Also [GFB](https://g
 
 The hard part isn't the model. Agents already touch customers and charges. If HITL never pauses the loop, it's a notification.
 
+## At a glance
+
+- 4 companies operating in production
+- 5 public products spanning licensing, compliance, and underwriting workflows
+- 1 rule: a human approves send and spend before the loop continues
+- Public repo = signal, not private operations or customer records
+
 ## What I actually run
 
 **Companies:** [ILI](https://ili-li.com/) · [GFB](https://gfbytes.com/) · [Higher Hosting](https://higher-hosting.com/) · [Frank Freda Medicare](https://frankfredamedicare.com/)
